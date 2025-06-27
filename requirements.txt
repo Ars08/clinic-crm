@@ -1,24 +1,2 @@
-clinic-crm/
-+-- core/
-¦   +-- migrations/
-¦   +-- templates/
-¦   ¦   +-- core/
-¦   ¦   ¦   +-- base.html
-¦   ¦   ¦   +-- doctor_dashboard.html
-¦   ¦   ¦   +-- appointments_list.html
-¦   ¦   ¦   L-- patient_detail.html
-¦   +-- admin.py
-¦   +-- apps.py
-¦   +-- models.py
-¦   +-- views.py
-¦   +-- urls.py
-¦   L-- forms.py
-+-- clinic_crm/
-¦   +-- settings.py
-¦   +-- urls.py
-¦   L-- wsgi.py
-+-- manage.py
-+-- requirements.txt
-+-- .gitignore
-+-- render.yaml
-L-- README.md
+Django>=4.2
+mysqlclient>=2.2
